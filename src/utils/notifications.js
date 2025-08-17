@@ -1,0 +1,1 @@
+export const toast=(m)=>{const el=document.createElement('div');el.textContent=m;el.style.cssText='position:fixed;bottom:24px;left:50%;transform:translateX(-50%);padding:12px 16px;background:rgba(31,41,55,.95);color:white;border-radius:12px;z-index:9999';document.body.appendChild(el);setTimeout(()=>el.remove(),2200)};
